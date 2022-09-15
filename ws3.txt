@@ -1,0 +1,24 @@
+Script started on 2022-09-14 22:42:32-04:00
+]0;eric@sjsu:~/ws3[eric@sjsu ws3]$ cd
+]0;eric@sjsu:~[eric@sjsu ~]$ cdgit push -u origin main[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcut -f2 amazon_reviews_us_Books_v1_02.tsv  [K| sprt | i[K[K[K[K[K[K[Kort | uniq -c | sort r[K-rn| [K[K | wc -3[K[K[K[K[Khead -3
+  21922 50122160
+   9964 50732546
+   2664 52615377
+]0;eric@sjsu:~[eric@sjsu ~]$ cut -f2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -rn | head -3[1P[1@6
+   4862 Harry Potter and the Order of the Phoenix (Book 5)
+   3740 Harry Potter And The Goblet Of Fire (Book 4)
+   2707 The Da Vinci Code
+]0;eric@sjsu:~[eric@sjsu ~]$ ws3[K[K[Kcd 3[Kws3.t[K[K
+]0;eric@sjsu:~/ws3[eric@sjsu ws3]$ history > cmds.log
+]0;eric@sjsu:~/ws3[eric@sjsu ws3]$ exit
+
+Script done on 2022-09-14 22:45:16-04:00
+
+
+ws3.txt
+
+1. The top 3 reviewer's ID are 50122160 with 21922 results, 50732546 with 9964 results, and 52615377 with 2664 results.
+2. The top 3 most reviewed products are the 
+	1) Harry Potter and the Order of the Phoenix (Book 5)
+	2) Harry Potter and the Goblet of Fire (Book 4)
+	3) The Da Vinci Code
